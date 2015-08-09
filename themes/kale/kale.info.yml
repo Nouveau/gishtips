@@ -1,0 +1,11 @@
+name: Kale
+type: theme
+description: 'A sub-theme of Classy meant for gishers.'
+core: 8.x
+
+base theme: classy
+
+libraries:
+  - kale/base
+  - classy/base
+  - core/normalize

@@ -1,0 +1,68 @@
+/**
+ * @file
+ * Kale styles
+ *
+ * @see \Drupal\system\Tests\Installer\InstallerTranslationTest::testInstaller()
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Bree+Serif);
+
+.site-name {
+    text-align: center;
+}
+
+.site-name a {
+    color: #2E88C4;
+    font-family: 'Bree Serif', serif;
+    font-size: 2em;
+    text-decoration: none;
+}
+
+.region-content {
+    margin: auto;
+    max-width: 1000px;
+}
+
+#block-kale-random-tip-block {
+    float: left;
+    width: 45%;
+}
+
+.view-tips {
+    position: relative;
+    padding: 15px;
+    margin: 1em 0px 3em;
+    color: #FFF;
+    background: linear-gradient(#2E88C4, #075698) repeat scroll 0% 0% transparent;
+    border-radius: 10px;
+}
+
+.view-tips:after {
+    content: "";
+    position: absolute;
+    bottom: -20px;
+    left: 50px;
+    border-width: 20px 20px 0px 0px;
+    border-style: solid;
+    border-color: #075698 transparent;
+    display: block;
+    width: 0px;
+}
+
+.view-mascots {
+    float: left;
+    margin-right: 5%;
+    margin-top: 5%;
+    width: 40%;
+}
+
+.view-mascots img {
+    height: auto;
+    max-width: 100%;
+}
+
+.view-mascots h2 {
+    font-family: 'Bree Serif', serif;
+    font-size: 2em;
+    text-align: center;
+}
